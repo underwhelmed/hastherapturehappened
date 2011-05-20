@@ -1,6 +1,5 @@
 require 'sinatra'
 
 get '/' do
-	@title = 'Has the Rapture Happened?'
-	'Nope'
+	File.read(File.join('public', 'index.html'))
 end
