@@ -1,6 +1,6 @@
 require 'sinatra'
 
 get '/' do
-	title = 'Has the Rapture Happened?'
+	@title = 'Has the Rapture Happened?'
 	'Nope'
 end
